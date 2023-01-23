@@ -107,26 +107,3 @@ class SQLiteConnection(Database):
 
         self._log.warning(f'No connection established against {self.database}.')
         return False
-
-def main() -> None:
-    '''
-        Main
-    '''
-    DATABASE = './sqlite/test_db.db'
-    CREATE_TABLE_EXAMPLE = '''
-    CREATE TABLE emp(
-    empid INTEGER NOT NULL PRIMARY KEY,
-    empname TEXT NOT NULL,
-    email NOT NULL
-    )
-    '''
-    SELECT_QUERY_EXAMPLE = 'SELECT * FROM emp;'
-    INSERT_QUERY_EXAMPLE = 'INSERT INTO emp(empid, empname, email) VALUES (2, "Denys", "contact@biletskyydenys.com");'
-
-
-
-    with SQLiteConnection( database=DATABASE) as db:
-        db.execute_query(sql=SELECT_QUERY_EXAMPLE)
-
-if __name__ == '__main__':
-    main()

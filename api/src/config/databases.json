@@ -2,7 +2,10 @@
     "MySQL": {
         "": ""
     },
+    "MySQLite": {
+        "auth": "user_auth.db"
+    },
     "NoSQL": {
-
+        "": ""
     }
 }
