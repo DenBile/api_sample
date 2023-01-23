@@ -15,4 +15,4 @@ class Paths:
     MAIL_CONFIG: str    = Path(f'{CONFIG}/{FileName.MAIL}').resolve().as_posix()
     REPORTS: str        = Path(Directories.REPORTS).resolve().as_posix()
     CURRENT_REPORT: str = Path(f'{Directories.REPORTS}/{utc_time_now}/').resolve().as_posix()
-    HTML_TEMPLATE: str  = Path(Directories.HTML_TEMPLATE).resolve().as_posix()
+    HTML_TEMPLATE: str  = Path(f'{Directories.HTML_TEMPLATE}/{FileName.HTML_TEMPLATE}').resolve().as_posix()

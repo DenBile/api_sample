@@ -28,11 +28,11 @@ class Directories:
 
 
     log = Logger(console=True)
-    path_map: dict[str, list[str]] = field(default_factory=lambda: (
-        Paths.CONFIG,
-        Paths.LOGGING_DIR,
-        Paths.REPORTS,
-        Paths.CURRENT_REPORT,
+    _path_map: dict[str, list[str]] = field(default_factory=lambda: (
+        # Paths.CONFIG,
+        # Paths.LOGGING_DIR,
+        # Paths.REPORTS,
+        Paths.CURRENT_REPORT
     ))
 
     def __post_init__(self) -> None:
@@ -47,7 +47,7 @@ class Directories:
             Checks if the directory exsts - if not, creates it.
         '''
 
-        for directory in self.path_map:
+        for directory in self._path_map:
             _dir = Path(directory).resolve()
             if _dir.exists():
                 self.log.debug(f'{directory} exists ... no action required ...')
@@ -55,7 +55,7 @@ class Directories:
 
             self.log.warning(f'{directory} directory does not exists ... will create a new one ...')
             try:
-                _dir.mkdir()
+                _dir.mkdir(asd)
                 self.log.info('Directory created successfully ...')
             except Exception as exception_message:
                 self.log.critical('Unable to create the directory ...')

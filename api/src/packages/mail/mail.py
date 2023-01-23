@@ -68,7 +68,7 @@ class EmailService:
         try:
             self._connection = smtplib.SMTP()
             self._connection.connect(self._config['connection'])
-        except socket.Error as smtplib_error:
+        except socket.error as smtplib_error:
             self._log.critical('Unexpected error occured, could not connect to the mail service ...')
             self._log.critical(smtplib_error)
         except Exception as exception_message:
@@ -171,6 +171,7 @@ class Mail:
         except Exception as exception_message:
             self._log.critical('Unexpected error occured while opening default HTML email template ...')
             self._log.critical(exception_message)
+            exit(-1)
         
         if self.body == '':
             self._log.warning('Body was not specified by user, will use default template ...')
