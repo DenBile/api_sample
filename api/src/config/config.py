@@ -27,7 +27,7 @@ class ConfigDirectoryErrorEmail(ErrorMail):
 class Directories:
 
 
-    log = Logger(conslose=True)
+    log = Logger(console=True)
     path_map: dict[str, list[str]] = field(default_factory=lambda: (
         Paths.CONFIG,
         Paths.LOGGING_DIR,
@@ -47,7 +47,7 @@ class Directories:
             Checks if the directory exsts - if not, creates it.
         '''
 
-        for directory in self._paths_map:
+        for directory in self.path_map:
             _dir = Path(directory).resolve()
             if _dir.exists():
                 self.log.debug(f'{directory} exists ... no action required ...')
