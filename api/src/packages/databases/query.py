@@ -1,7 +1,8 @@
-from logger import Logger
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
-from supported_options import SupportedQueryOptions
+
+from packages.logging.logger import Logger
+from .supported_options import SupportedQueryOptions
 
 @dataclass
 class Query(ABC):

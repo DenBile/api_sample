@@ -1,17 +1,11 @@
 import pandas as pd
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
-from supported_options import SupportedQueryOptions, SupportedTableAmendmentOptions
+
+from packages.logging.logger import Logger
+from .supported_options import SupportedQueryOptions, SupportedTableAmendmentOptions
 # from query import SupportedQueryOptions
 # from table import SupportedTableAmendmentOptions
-
-try:
-    from logger import Logger
-except Exception as exception_message:
-    print('Unexpected error occured while loading modules ...')
-    import add_upper_dir
-    print('Loaded modules ... retrying to import ...')
-    from logger import Logger
 
 
 @dataclass(slots=True, frozen=True)
