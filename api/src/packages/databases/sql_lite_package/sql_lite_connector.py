@@ -1,10 +1,9 @@
 import sqlite3
 import pandas as pd
 
-import add_upper_dir
-from sql_lite_tables import SQLiteTable
-from sql_lite_queries import SQLiteQuery
-from database import Database, DatabaseReturn
+from packages.databases.sql_lite_package.sql_lite_tables import SQLiteTable
+from packages.databases.sql_lite_package.sql_lite_queries import SQLiteQuery
+from packages.databases.database import Database, DatabaseReturn
 
 class SQLiteConnection(Database):
     '''

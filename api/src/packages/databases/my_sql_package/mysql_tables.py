@@ -1,4 +1,4 @@
-from table import Table
+from packages.databases.table import Table
 
 class MySQLTable(Table):
 

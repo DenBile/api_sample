@@ -2,18 +2,10 @@ import os
 import pandas as pd
 import mysql.connector as mysql
 
-try:
-    from mysql_tables import MySQLTable
-    from mysql_queries import MySQLQuery
-    from database import Database, DatabaseReturn
-except Exception as exception_message:
-    print('Unexpected error occured while loading modules ...')
-    import add_upper_dir
-    print('Loaded modules ... retrying to import ...')
-    from mysql_tables import MySQLTable
-    from mysql_queries import MySQLQuery
-    from database import Database, DatabaseReturn
-    
+from packages.databases.my_sql_package.mysql_tables import MySQLTable
+from packages.databases.my_sql_package.mysql_queries import MySQLQuery
+from packages.databases.database import Database, DatabaseReturn
+
 
 class MySqlConnection(Database):
     '''

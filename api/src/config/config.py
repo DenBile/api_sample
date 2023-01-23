@@ -1,17 +1,18 @@
-import add_upper_dir
-from .paths.paths import Paths
-from packages.logging.logger import Logger
-from packages.mail.mail import Mail
-
 import subprocess
 from abc import ABC
 from pathlib import Path
 from dataclasses import dataclass, field
 
+from .paths.paths import Paths
+from packages.logging.logger import Logger
+from packages.mail.mail import Mail
+
+
 class EmailSettings(ABC):
 
-    sender: str = subprocess.getoutput('whoami')
-    recipients: list[str]   = [subprocess.getoutput('whoami')]
+    sender: str                 = subprocess.getoutput('whoami')
+    recipients: str | list[str] = [subprocess.getoutput('whoami')]
+    copies: str | list[str]     = [subprocess.getoutput('whoami')]
 
 class ErrorMail(EmailSettings):
 
@@ -29,7 +30,9 @@ class Directories:
     log = Logger(conslose=True)
     path_map: dict[str, list[str]] = field(default_factory=lambda: (
         Paths.CONFIG,
-        Paths.LOGGING_DIR
+        Paths.LOGGING_DIR,
+        Paths.REPORTS,
+        Paths.CURRENT_REPORT,
     ))
 
     def __post_init__(self) -> None:
@@ -61,6 +64,7 @@ class Directories:
                     subject=ConfigDirectoryErrorEmail.subject,
                     sender=ConfigDirectoryErrorEmail.sender,
                     recipients=ConfigDirectoryErrorEmail.recipients,
+                    copies=ConfigDirectoryErrorEmail.copies,
                     body=ConfigDirectoryErrorEmail.body,
                     attachments=ConfigDirectoryErrorEmail.attachments
                 )
