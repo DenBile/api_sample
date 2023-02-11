@@ -55,7 +55,7 @@ class Directories:
 
             self.log.warning(f'{directory} directory does not exists ... will create a new one ...')
             try:
-                _dir.mkdir(asd)
+                _dir.mkdir()
                 self.log.info('Directory created successfully ...')
             except Exception as exception_message:
                 self.log.critical('Unable to create the directory ...')
