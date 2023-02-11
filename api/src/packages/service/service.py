@@ -11,6 +11,8 @@ from flask_cors import CORS
 from flask_caching import Cache
 # from requests_gssapi import HTTPSPNEGOAuth
 
+
+from packages.mail.mail import Mail
 from config.paths.paths import Paths
 from packages.logging.logger import Logger
 from packages.mail.templates.service_template import ServiceInitializationErrorEmail, ServiceNoFileErrorEmail
