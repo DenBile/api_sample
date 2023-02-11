@@ -2,5 +2,18 @@
     "NAME": "Best service ever",
     "TIMEOUT": 300,
     "ENV": "dev",
-    "USE_EXTERNAL_CACHE": false
+    "BUILD_VERSION": "Alpha",
+    "CACHE": {
+        "USE_EXTERNAL_CACHE": false,
+        "CACHE_REDIS_HOST": "localhost",
+        "CACHE_REDIS_PORT": 8000
+    },
+    "DATABASES": {
+        "SQL": [
+            ""
+        ],
+        "NoSQL": [
+            ""
+        ]
+    }
 }

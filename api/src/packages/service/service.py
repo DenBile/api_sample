@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from redis import Redis
 from flask import Flask
 from flask_restx import Api
-from flask_cors import CORS
+# from flask_cors import CORS
 from flask_caching import Cache
 # from requests_gssapi import HTTPSPNEGOAuth
 
@@ -46,13 +46,8 @@ class Service:
         self._service_config = self._set_service_config()
         self._env = 'prod' if self._service_config['ENV'] == 'prod' else 'dev'
         self._cache_config = self._set_cache_config()
+        self._init_app()
 
-    def _set_cache_config(self) -> dict[str, str]:
-        '''
-            Configurate the cache for the service.
-        '''
-
-        pass
 
     def _set_service_config(self) ->  dict[str, str]:
         '''
@@ -97,6 +92,67 @@ class Service:
         else:
             self.log.info('Local config file loaded successfully ...')
             return service_config
+
+    def _set_cache_config(self) -> dict[str, str]:
+        '''
+            Configurate the cache for the service.
+        '''
+
+        self.log.debug('Setting service cache config ...')
+        return {
+            'CACHE_TYPE': 'redis',
+            'CACHE_REDIS_HOST': self._service_config['CACHE']['CACHE_REDIS_HOST'],
+            'CACHE_REDIS_PORT': self._service_config['CACHE']['CACHE_REDIS_PORT'],
+            'CACHE_REDIS_PASSWORD': '', # TODO: Add password authentication...
+            'CACHE_DEFAULT_TIMEOUT': self.timeout
+        } if self.use_external_cache else {
+            'DEBUG': True,
+            'CACHE_TYPE': 'SimpleCache',
+            'CACHE_DEFAULT_TIMEOUT': self.timeout
+        }
+
+    def _init_app(self) -> None:
+        '''
+            Initializes service.
+        '''
+
+        self._set_app()
+        self._set_api()
+
+    def _set_app(self) -> None:
+        '''
+            Set's the Flask APP.
+        '''
+
+        self.log.debug('Setting service APP ...')
+        self.app = Flask(self._cache_config['NAME'])
+        self.app.config.from_mapping(self._cache_config)
+        self.app.register_error_handler(Exception, Service.error_handler)
+
+    def _set_api(self) -> None:
+        '''
+            Set's the Flask Rest-X API.
+        '''
+
+        self.log.debug('Setting Flast Rest-X API ...')
+        try:
+            api_version = self._service_config['BUILD_VERSION']
+        except Exception as exception_message:
+            self.log.warning('Unexpected error occured. Api version will be set to DEV ...')
+            self.log.warning(exception_message)
+            api_version = 'dev'
+        
+        self.api = Api(self.app, version=api_version, title=self._service_config['NAME'])
+
+    def error_handler(error) -> tuple[dict[str, str], int]:
+        '''
+            Custom service error handler.
+        '''
+
+        return {
+            'error_message': f'Unexpected exception occured ... {str(error)}',
+            'notify_user': True
+        }, 400
 
 
 def send_error_email(subject: str, sender: str, recipients: str | list, copies: str | list, body: dict[str, dict[str, str]], attachments: list[str]) -> None:
