@@ -1,0 +1,6 @@
+{
+    "NAME": "Best service ever",
+    "TIMEOUT": 300,
+    "ENV": "dev",
+    "USE_EXTERNAL_CACHE": false
+}

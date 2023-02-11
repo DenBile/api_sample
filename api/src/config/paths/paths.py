@@ -17,3 +17,4 @@ class Paths:
     REPORTS: str            = Path(Directories.REPORTS).resolve().as_posix()
     CURRENT_REPORT: str     = Path(f'{Directories.REPORTS}/{utc_time_now}/').resolve().as_posix()
     HTML_TEMPLATE: str      = Path(f'{Directories.HTML_TEMPLATE}/{FileName.HTML_TEMPLATE}').resolve().as_posix()
+    SERVICE_CONFIG: str     = Path(f'{Directories.CONFIG}/{FileName.SERVICE_CONFIG}').resolve().as_posix()

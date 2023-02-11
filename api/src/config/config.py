@@ -1,27 +1,11 @@
-import subprocess
-from abc import ABC
 from pathlib import Path
 from dataclasses import dataclass, field
 
 from .paths.paths import Paths
-from packages.logging.logger import Logger
 from packages.mail.mail import Mail
+from packages.logging.logger import Logger
+from packages.mail.templates.config_template import ConfigDirectoryErrorEmail
 
-
-class EmailSettings(ABC):
-
-    sender: str                 = subprocess.getoutput('whoami')
-    recipients: str | list[str] = [subprocess.getoutput('whoami')]
-    copies: str | list[str]     = [subprocess.getoutput('whoami')]
-
-class ErrorMail(EmailSettings):
-
-    subject: str        = '[ERROR] Unexpectedly stopped'
-    attachments: str    = Paths.LOGGING_FILE
-
-class ConfigDirectoryErrorEmail(ErrorMail):
-
-    body = ''
 
 @dataclass(frozen=True)
 class Directories:

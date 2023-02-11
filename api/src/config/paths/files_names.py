@@ -5,3 +5,4 @@ class FileName:
     MAIL: str               = 'mail.json'
     HTML_TEMPLATE: str      = 'template.html'
     DATABASES_CONFIG: str   = 'databases.json'
+    SERVICE_CONFIG: str     = 'service_config.json'
