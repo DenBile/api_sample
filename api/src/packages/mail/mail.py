@@ -9,8 +9,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
-from config.paths.paths import Paths
-from packages.logging.logger import Logger
+from src.config.paths.paths import Paths
+from src.packages.logging.logger import Logger
 
 import json
 from bs4 import BeautifulSoup

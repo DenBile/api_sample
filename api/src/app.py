@@ -1,11 +1,9 @@
-
-
 from src import service
-
+from src.endpoints.namespaces import namespaces
 
 app = service.app
-# for namespace in namespaces:
-#     service.api.add_namespace(namespace)
+for namespace in namespaces:
+    service.api.add_namespace(namespace)
 
 if __name__ == '__main__':
     service.app.run(

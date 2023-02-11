@@ -2,7 +2,7 @@ import time
 import logging
 from pathlib import Path
 
-from config.paths.paths import Paths
+from src.config.paths.paths import Paths
 
 
 class Logger:

@@ -12,10 +12,10 @@ from flask_caching import Cache
 # from requests_gssapi import HTTPSPNEGOAuth
 
 
-from packages.mail.mail import Mail
-from config.paths.paths import Paths
-from packages.logging.logger import Logger
-from packages.mail.templates.service_template import ServiceInitializationErrorEmail, ServiceNoFileErrorEmail
+from src.packages.mail.mail import Mail
+from src.config.paths.paths import Paths
+from src.packages.logging.logger import Logger
+from src.packages.mail.templates.service_template import ServiceInitializationErrorEmail, ServiceNoFileErrorEmail
 
 @dataclass
 class Service:
@@ -23,7 +23,7 @@ class Service:
         Custom service for Flask endpoints.
     '''
 
-    name: str
+    name: None | str = None
     timeout: int = 300
     use_external_cache: bool = False
     load_remote_config: bool = False
@@ -44,6 +44,8 @@ class Service:
 
         self.log.debug('Starting service ...')
         self._service_config = self._set_service_config()
+        if not self.name:
+            self.name = self._service_config['NAME']
         self._env = 'prod' if self._service_config['ENV'] == 'prod' else 'dev'
         self._cache_config = self._set_cache_config()
         self._init_app()
@@ -125,7 +127,7 @@ class Service:
         '''
 
         self.log.debug('Setting service APP ...')
-        self.app = Flask(self._cache_config['NAME'])
+        self.app = Flask(self.name)
         self.app.config.from_mapping(self._cache_config)
         self.app.register_error_handler(Exception, Service.error_handler)
 
