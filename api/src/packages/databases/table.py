@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
 
-from packages.logging.logger import Logger
+from src.packages.logging.logger import Logger
 from .supported_options import SupportedTableAmendmentOptions
 
 

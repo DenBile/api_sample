@@ -1,4 +1,4 @@
-from packages.databases.table import Table
+from src.packages.databases.table import Table
 
 class SQLiteTable(Table):
 

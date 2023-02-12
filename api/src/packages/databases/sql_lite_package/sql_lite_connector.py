@@ -1,9 +1,9 @@
 import sqlite3
 import pandas as pd
 
-from packages.databases.sql_lite_package.sql_lite_tables import SQLiteTable
-from packages.databases.sql_lite_package.sql_lite_queries import SQLiteQuery
-from packages.databases.database import Database, DatabaseReturn
+from src.packages.databases.database import Database, DatabaseReturn
+from src.packages.databases.sql_lite_package.sql_lite_tables import SQLiteTable
+from src.packages.databases.sql_lite_package.sql_lite_queries import SQLiteQuery
 
 class SQLiteConnection(Database):
     '''

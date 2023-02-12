@@ -2,7 +2,7 @@ import pandas as pd
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
 
-from packages.logging.logger import Logger
+from src.packages.logging.logger import Logger
 from .supported_options import SupportedQueryOptions, SupportedTableAmendmentOptions
 # from query import SupportedQueryOptions
 # from table import SupportedTableAmendmentOptions

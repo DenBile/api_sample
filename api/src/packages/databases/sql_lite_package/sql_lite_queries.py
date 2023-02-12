@@ -1,6 +1,6 @@
 import pandas as pd
 
-from packages.databases.query import Query
+from src.packages.databases.query import Query
 
 class SQLiteQuery(Query):
 

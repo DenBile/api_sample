@@ -4,9 +4,9 @@ import json
 
 
 from .pepper import PEPPER
-from config.paths.paths import Paths
-from packages.logging.logger import Logger
-from packages.databases.sql_lite_package.sql_lite_connector import SQLiteConnection
+from src.config.paths.paths import Paths
+from src.packages.logging.logger import Logger
+from src.packages.databases.sql_lite_package.sql_lite_connector import SQLiteConnection
 
 
 class Authentication:
