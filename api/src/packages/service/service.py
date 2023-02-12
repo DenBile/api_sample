@@ -105,8 +105,8 @@ class Service:
         self.log.debug('Setting service cache config ...')
         return {
             'CACHE_TYPE': 'redis',
-            'CACHE_REDIS_HOST': self._service_config['CACHE']['CACHE_REDIS_HOST'],
-            'CACHE_REDIS_PORT': self._service_config['CACHE']['CACHE_REDIS_PORT'],
+            'CACHE_REDIS_HOST': self._service_config[self._env]['CACHE']['CACHE_REDIS_HOST'],
+            'CACHE_REDIS_PORT': self._service_config[self._env]['CACHE']['CACHE_REDIS_PORT'],
             'CACHE_REDIS_PASSWORD': '', # TODO: Add password authentication...
             'CACHE_DEFAULT_TIMEOUT': self.timeout
         } if self.use_external_cache else {
