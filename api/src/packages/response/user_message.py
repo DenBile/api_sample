@@ -12,7 +12,7 @@ class UserMessage:
     '''
 
     notify_user: bool = True
-    message: dict[str, str] = field(default_factory={lambda: 'message': 'Success'})
+    message: dict[str, str] = field(default_factory=lambda: {'message': 'Success'})
     payload: None | dict[str, str] = None
     return_code: int = field(init=False)
 
