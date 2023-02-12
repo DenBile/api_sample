@@ -1,6 +1,8 @@
+import uuid
 import time
 import logging
 from pathlib import Path
+from flask import request, g, has_request_context
 
 from src.config.paths.paths import Paths
 
@@ -130,3 +132,34 @@ class Logger:
         '''
 
         self._logger.error(message)
+
+
+def setup_flask_logging(application):
+    '''
+        Set's up the Flask logging.
+    '''
+
+    @application.after_request
+    def afters(response):
+        response.headers['X-Request-ID'] = _request_id()
+        return response
+
+    return Logger(console=True)
+
+def _request_id():
+    '''
+    
+    '''
+
+    if hasattr(g, 'request_id'):
+    # if getattr(g, 'request_id', None):
+        return g.request_id
+
+    existing_uuid = request.headers.get('X-Request-ID')
+    new_uuid = uuid.uuid4()
+    
+    request_id = existing_uuid or new_uuid
+    g.request_id = request_id
+
+    return request_id
+    

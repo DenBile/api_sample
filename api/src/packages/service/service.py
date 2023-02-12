@@ -151,6 +151,8 @@ class Service:
             Custom service error handler.
         '''
 
+        log = Logger()
+        log.error(f'Unexpected exception occured ... {str(error)}')
         return {
             'error_message': f'Unexpected exception occured ... {str(error)}',
             'notify_user': True
