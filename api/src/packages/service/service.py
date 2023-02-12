@@ -24,6 +24,7 @@ class Service:
     '''
 
     name: None | str = None
+    _env: str = 'DEV'
     timeout: int = 300
     use_external_cache: bool = False
     load_remote_config: bool = False
@@ -46,8 +47,9 @@ class Service:
         self._service_config = self._set_service_config()
         if not self.name:
             self.name = self._service_config['NAME']
-        self._env = 'prod' if self._service_config['ENV'] == 'prod' else 'dev'
-        self._cache_config = self._set_cache_config()
+        # self._env = self.env
+        self._service_config.update(self._set_cache_config())
+        # self._cache_config = self._set_cache_config()
         self._init_app()
 
 
@@ -128,7 +130,7 @@ class Service:
 
         self.log.debug('Setting service APP ...')
         self.app = Flask(self.name)
-        self.app.config.from_mapping(self._cache_config)
+        self.app.config.from_mapping(self._service_config[self._env])
         self.app.register_error_handler(Exception, Service.error_handler)
 
     def _set_api(self) -> None:
@@ -138,7 +140,7 @@ class Service:
 
         self.log.debug('Setting Flast Rest-X API ...')
         try:
-            api_version = self._service_config['BUILD_VERSION']
+            api_version = self._service_config[self._env]['BUILD_VERSION']
         except Exception as exception_message:
             self.log.warning('Unexpected error occured. Api version will be set to DEV ...')
             self.log.warning(exception_message)

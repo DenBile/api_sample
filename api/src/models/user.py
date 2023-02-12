@@ -2,10 +2,11 @@ import re
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
 
-from src import log
+from src import service, log
+from src.packages.databases.sql_lite_package.sql_lite_connector import SQLiteConnection
 
 @dataclass
-class User(ABC):
+class User:
     '''
         An abstract class of a user.
     '''
@@ -13,6 +14,23 @@ class User(ABC):
     _username: str
     _email: str
     _password: str
+
+
+    def unique_username(self):
+        '''
+            ...
+        '''
+
+        print('***** **** *** ** * ** *** **** *****')
+        print(service.app.config)
+        print('***** **** *** ** * ** *** **** *****')
+        with SQLiteConnection(database=f'../{self._auth_database}') as sqlite_db:
+            if sqlite_db.execute_query(sql='SELECT * FROM USERS WHERE USERNAME LIKE ?', properties=[self._username]).is_empty:
+                log.info(f'Username "{self._username}" is not present yet in the database ...')
+                return True
+        
+        log.warning(f'Username "{self._username}" is already present in the database ...')
+        return False
 
 
     @property

@@ -1,19 +1,60 @@
 {
     "NAME": "Best service ever",
-    "TIMEOUT": 300,
-    "ENV": "dev",
-    "BUILD_VERSION": "Alpha",
-    "CACHE": {
-        "USE_EXTERNAL_CACHE": false,
-        "CACHE_REDIS_HOST": "localhost",
-        "CACHE_REDIS_PORT": 8000
+    "PROD": {
+        "ENV": "prod",
+        "TESTING": false,
+        "TIMEOUT": 300,
+        "BUILD_VERSION": "0.0.1",
+        "CACHE": {
+            "USE_EXTERNAL_CACHE": false,
+            "CACHE_REDIS_HOST": "localhost",
+            "CACHE_REDIS_PORT": 8000
+        },
+        "DATABASES": {
+            "SQL": [
+                ""
+            ],
+            "NoSQL": [
+                ""
+            ]
+        }
     },
-    "DATABASES": {
-        "SQL": [
-            ""
-        ],
-        "NoSQL": [
-            ""
-        ]
+    "QA": {
+        "ENV": "qa",
+        "TESTING": true,
+        "TIMEOUT": 300,
+        "BUILD_VERSION": "Alpha QA",
+        "CACHE": {
+            "USE_EXTERNAL_CACHE": false,
+            "CACHE_REDIS_HOST": "localhost",
+            "CACHE_REDIS_PORT": 8000
+        },
+        "DATABASES": {
+            "SQL": [
+                ""
+            ],
+            "NoSQL": [
+                ""
+            ]
+        }
+    },
+    "DEV": {
+        "ENV": "dev",
+        "TESTING": true,
+        "TIMEOUT": 300,
+        "BUILD_VERSION": "Alpha DEV",
+        "CACHE": {
+            "USE_EXTERNAL_CACHE": false,
+            "CACHE_REDIS_HOST": "localhost",
+            "CACHE_REDIS_PORT": 8000
+        },
+        "DATABASES": {
+            "SQL": [
+                ""
+            ],
+            "NoSQL": [
+                ""
+            ]
+        }
     }
 }

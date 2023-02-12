@@ -32,21 +32,23 @@ class Registration(Resource):
 
         arguments = register_parser.parse_args()
         user = User(
-            _username=arguments.get('email', None),
-            _email=arguments.get('user_name', None),
+            _email=arguments.get('email', None),
+            _username=arguments.get('user_name', None),
             _password=arguments.get('password', None)
         )
         user_message = UserMessage()
 
         if user._password != arguments.get('repeat_password', None):
-            return 'Passwords dont match', 400
+            log.warning('The passwords does not match ...')
+            user_message.add_message(new_message={'warning_message': 'The passwords does not match'})
+            return user_message.return_message()
 
         if not RegistrationValidator().insert(user=user, user_message=user_message):
-            return 'Validation failed', 400
+            return user_message.return_message()
 
         if not Authentication().create_user(username=user._username, password=user._password):
             log.error(f'Authentication failed for username "{user._username}" ...')
-            return 'Unfotunatly registration failed. Please try again later or contact our support team.', 400
+            return 'Unfortunately registration failed. Please try again later or contact our support team.', 400
 
         log.info(f'New user with username "{user._username}" registered ...')
         return 'You have completed the registration successfully', 200
