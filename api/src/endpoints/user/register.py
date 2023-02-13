@@ -46,9 +46,9 @@ class Registration(Resource):
         if not RegistrationValidator().insert(user=user, user_message=user_message):
             return user_message.return_message()
 
-        if not Authentication().create_user(username=user._username, password=user._password):
-            log.error(f'Authentication failed for username "{user._username}" ...')
-            return 'Unfortunately registration failed. Please try again later or contact our support team.', 400
+        # if not Authentication().create_user(username=user._username, password=user._password):
+        #     log.error(f'Authentication failed for username "{user._username}" ...')
+        #     return 'Unfortunately registration failed. Please try again later or contact our support team.', 400
 
         log.info(f'New user with username "{user._username}" registered ...')
         return 'You have completed the registration successfully', 200

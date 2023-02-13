@@ -44,7 +44,9 @@ class DatabaseReturn:
             Checks if the returned output is emapty list.
         '''
 
-        return True if not self.rows else False
+        self._log.info('Checking if the output is empty ...')
+        self._log.debug(f'Rows: {self.rows}')
+        return True if not self.rows.empty else False
 
 
 class Database(ABC):

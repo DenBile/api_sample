@@ -1,8 +1,10 @@
 import re
+import json
 from dataclasses import dataclass
 from abc import ABC, abstractclassmethod
 
 from src import service, log
+from src.config.paths.paths import Paths
 from src.packages.databases.sql_lite_package.sql_lite_connector import SQLiteConnection
 
 @dataclass
@@ -21,13 +23,20 @@ class User:
             ...
         '''
 
-        print('***** **** *** ** * ** *** **** *****')
-        print(service.app.config)
-        print('***** **** *** ** * ** *** **** *****')
-        with SQLiteConnection(database=f'../{self._auth_database}') as sqlite_db:
-            if sqlite_db.execute_query(sql='SELECT * FROM USERS WHERE USERNAME LIKE ?', properties=[self._username]).is_empty:
-                log.info(f'Username "{self._username}" is not present yet in the database ...')
-                return True
+        try:
+            with open(Paths.DATABASES_CONFIG) as database_config_file:
+                self._auth_database = json.load(database_config_file)
+            self._auth_database = self._auth_database['MySQLite']['auth']
+            log.info('User authentication config file opened successfully ...')
+        except Exception as exception_message:
+            log.critical(f'Unexpected error occured while openning the config file for the user authentication  ...')
+            log.critical(exception_message)
+            exit(-1)
+        else:
+            with SQLiteConnection(database=f'../{self._auth_database}') as sqlite_db:
+                if sqlite_db.execute_query(sql='SELECT * FROM USERS WHERE USERNAME LIKE ?', properties=[self._username]).is_empty:
+                    log.info(f'Username "{self._username}" is not present yet in the database ...')
+                    return True
         
         log.warning(f'Username "{self._username}" is already present in the database ...')
         return False
