@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T13:05:09.961Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d_pQnY2pNVotR82sNxIg" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T13:06:19.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zT6khUiS-vPlw8gp2oGh" version="22.1.11" type="github">
   <diagram name="Page-1" id="9bJNxkyMOJ93Q6BxH3WJ">
     <mxGraphModel dx="2183" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,8 +170,8 @@
             <mxPoint x="1350" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6mcMAS29XMhxtGxJj1oq-45" value="Driver" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.176;entryY=0.014;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryPerimeter=0;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-43" target="6mcMAS29XMhxtGxJj1oq-3">
-          <mxGeometry x="0.8247" relative="1" as="geometry">
+        <mxCell id="6mcMAS29XMhxtGxJj1oq-45" value="Driver" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-43" target="6mcMAS29XMhxtGxJj1oq-3">
+          <mxGeometry x="0.5912" relative="1" as="geometry">
             <mxPoint x="1180" y="840" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -198,19 +198,18 @@
           <mxGeometry x="980" y="590" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6mcMAS29XMhxtGxJj1oq-52" value="Landlord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-50" target="6mcMAS29XMhxtGxJj1oq-3">
-          <mxGeometry x="-0.5733" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="-0.6001" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6mcMAS29XMhxtGxJj1oq-50" value="Retrieve User Personal Data via API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6mcMAS29XMhxtGxJj1oq-53" value="Landlord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-44">
+        <mxCell id="6mcMAS29XMhxtGxJj1oq-53" value="Landlord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-44" target="6mcMAS29XMhxtGxJj1oq-3">
           <mxGeometry x="-0.2439" relative="1" as="geometry">
             <mxPoint x="1460" y="890" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1460" y="440" />
-              <mxPoint x="1460" y="890" />
+              <mxPoint x="1420" y="440" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -333,8 +332,14 @@
         <mxCell id="6mcMAS29XMhxtGxJj1oq-89" value="Landlord screen" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;gradientColor=none;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="2885" width="330" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="6mcMAS29XMhxtGxJj1oq-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-90" target="6mcMAS29XMhxtGxJj1oq-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6mcMAS29XMhxtGxJj1oq-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="6mcMAS29XMhxtGxJj1oq-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="985" />
+              <mxPoint x="1450" y="950" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6mcMAS29XMhxtGxJj1oq-90" value="Booking screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="970" width="120" height="60" as="geometry" />
