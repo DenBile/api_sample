@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T18:18:29.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2o31qZlrmUU48cxfrfEf" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T18:21:00.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="XWOtiieqcYJSM9cdTSFi" version="23.1.5" type="github">
   <diagram name="Page-1" id="9bJNxkyMOJ93Q6BxH3WJ">
-    <mxGraphModel dx="2593" dy="2525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -732,6 +732,33 @@
         </mxCell>
         <mxCell id="gkY6WeDi1NO2mwubUF_c-57" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="2150" y="2230" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="1775" width="258" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-61" value="User Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1785" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-62" value="User (&lt;b&gt;FK&lt;/b&gt;): User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1835" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gkY6WeDi1NO2mwubUF_c-63" target="gkY6WeDi1NO2mwubUF_c-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-63" value="Booking (&lt;b&gt;FK&lt;/b&gt;): Reservation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1885" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-64" value="Amount: Decimal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1935" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-65" value="Payment Type: Varchar (15)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1985" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-66" value="Timestamp: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="2035" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-67" value="Is Successful: Boolean" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2599" y="2085" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
