@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T18:13:47.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="3Ty5xcZcKKuMwPgwGdUq" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T18:17:51.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Y3VZNWU1WRaFX1arqGEH" version="23.1.5" type="github">
   <diagram name="Page-1" id="9bJNxkyMOJ93Q6BxH3WJ">
     <mxGraphModel dx="2183" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -679,6 +679,49 @@
         </mxCell>
         <mxCell id="gkY6WeDi1NO2mwubUF_c-44" value="Parking Spot Media Files (&lt;b&gt;FK&lt;/b&gt;): ParkingSpotMediaFiles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1710" y="1885" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1780" width="258" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-47" value="Reservation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1790" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-48" value="User (FK): User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1840" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gkY6WeDi1NO2mwubUF_c-49" target="gkY6WeDi1NO2mwubUF_c-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="1910" />
+              <mxPoint x="2080" y="1740" />
+              <mxPoint x="1190" y="1740" />
+              <mxPoint x="1190" y="1815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-49" value="Parking Spot (&lt;b&gt;FK&lt;/b&gt;): ParkingSpot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1890" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-50" value="Parking Plan(&lt;b&gt;FK&lt;/b&gt;): Plans" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1940" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-51" value="Latitude: Decimal" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="1990" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-52" value="Longitude: Deciaml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2040" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-53" value="Number Plate: Varchar (8)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2090" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-54" value="Booking Status: Small int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2135" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-56" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2180" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gkY6WeDi1NO2mwubUF_c-57" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="2230" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
