@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T14:52:32.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BRrRtff3-J12jRdN7Xyk" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T18:34:56.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0O6nBldec7dcA2RpiZyz" version="23.1.6" type="github">
   <diagram name="Page-1" id="9bJNxkyMOJ93Q6BxH3WJ">
-    <mxGraphModel dx="719" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2406" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -931,327 +931,382 @@
           <mxGeometry x="4630" y="1720" width="700" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="427" y="2810" width="258" height="370" as="geometry" />
+          <mxGeometry x="1220" y="3257.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-63" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Building&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="437" y="2820" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-64" target="IhysZrRgSNAVi8s295b9-153">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1230" y="3267.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-64" value="Country &lt;b&gt;&lt;i&gt;[FK]&lt;/i&gt;&lt;/b&gt;: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="2870" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3317.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-65" value="Region: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="2920" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3367.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-66" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="2970" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3417.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-67" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="3020" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3467.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-68" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="3070" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3517.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-69" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="437" y="3120" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3567.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="2810" width="258" height="370" as="geometry" />
+          <mxGeometry x="1530" y="2807.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-71" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Slot&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="740" y="2820" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="2817.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-72" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="2870" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="2867.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-73" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="2920" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="2917.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-74" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="2970" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="2967.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-75" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="3020" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="3017.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-76" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="3070" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="3067.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-77" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="740" y="3120" width="240" height="40" as="geometry" />
+          <mxGeometry x="1540" y="3117.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="2810" width="258" height="370" as="geometry" />
+          <mxGeometry x="1840" y="2807.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-79" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Lender&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2820" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="2817.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-80" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2870" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="2867.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-81" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2920" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="2917.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-82" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="2970" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="2967.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-83" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="3020" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="3017.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-84" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="3070" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="3067.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-85" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="3120" width="240" height="40" as="geometry" />
+          <mxGeometry x="1850" y="3117.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-86" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="428" y="3880" width="258" height="370" as="geometry" />
+          <mxGeometry x="1223" y="4070" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-87" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BuildingSlot&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="438" y="3890" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4080" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-88" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="3940" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4130" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-89" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="3990" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4180" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-90" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="4040" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4230" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-91" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="4090" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4280" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-92" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="4140" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4330" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-93" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="438" y="4190" width="240" height="40" as="geometry" />
+          <mxGeometry x="1233" y="4380" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-94" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1042" y="3890" width="258" height="370" as="geometry" />
+          <mxGeometry x="1842" y="3887.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-95" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;LenderSlot&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="3900" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="3897.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-96" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="3950" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="3947.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-97" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="4000" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="3997.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-98" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="4050" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="4047.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-99" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="4100" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="4097.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-100" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="4150" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="4147.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-101" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="4200" width="240" height="40" as="geometry" />
+          <mxGeometry x="1852" y="4197.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-102" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="3480" width="258" height="370" as="geometry" />
+          <mxGeometry x="1220" y="3670" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-103" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BuildingMedia&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3490" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3680" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-104" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3540" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3730" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-105" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3590" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3780" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-106" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3640" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3830" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-107" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3690" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3880" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-108" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3740" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3930" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-109" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="435" y="3790" width="240" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3980" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="731" y="3480" width="258" height="370" as="geometry" />
+          <mxGeometry x="1531" y="3477.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-111" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;SlotMedia&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3490" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3487.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-112" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3540" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3537.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-113" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3590" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3587.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-114" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3640" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3637.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-115" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3690" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3687.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-116" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3740" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3737.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-117" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="741" y="3790" width="240" height="40" as="geometry" />
+          <mxGeometry x="1541" y="3787.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-118" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1041" y="3480" width="258" height="370" as="geometry" />
+          <mxGeometry x="1841" y="3477.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-119" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;LenderMedia&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3490" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3487.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-120" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3540" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3537.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-121" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3590" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3587.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-122" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3640" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3637.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-123" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3690" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3687.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-124" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3740" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3737.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-125" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1051" y="3790" width="240" height="40" as="geometry" />
+          <mxGeometry x="1851" y="3787.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-126" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1362" y="2810" width="258" height="370" as="geometry" />
+          <mxGeometry x="2162" y="2807.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-127" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Packages&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="2820" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2817.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-128" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="2870" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2867.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-129" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="2920" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2917.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-130" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="2970" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="2967.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-131" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="3020" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="3017.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-132" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="3070" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="3067.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-133" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1372" y="3120" width="240" height="40" as="geometry" />
+          <mxGeometry x="2172" y="3117.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-134" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1363" y="3890" width="258" height="370" as="geometry" />
+          <mxGeometry x="2163" y="3887.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-135" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;PackagesSlot&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="3900" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="3897.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-136" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="3950" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="3947.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-137" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="4000" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="3997.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-138" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="4050" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="4047.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-139" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="4100" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="4097.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-140" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="4150" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="4147.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-141" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1373" y="4200" width="240" height="40" as="geometry" />
+          <mxGeometry x="2173" y="4197.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-142" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="2805" width="258" height="370" as="geometry" />
+          <mxGeometry x="2490" y="2802.5" width="258" height="370" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-143" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Media&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="2815" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="2812.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-144" value="Title: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="2865" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="2862.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-145" value="Description: TextField (Varchar) (255 | NULL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="2915" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="2912.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-146" value="Minutes: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="2965" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="2962.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-147" value="Price: Float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="3015" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="3012.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-148" value="Created At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="3065" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="3062.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-149" value="Updated At: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="3115" width="240" height="40" as="geometry" />
+          <mxGeometry x="2500" y="3112.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-150" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="2810" width="258" height="310" as="geometry" />
+          <mxGeometry x="100" y="2802.5" width="258" height="310" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-151" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2820" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="2812.5" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-152" value="ID (PK) Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2870" width="240" height="40" as="geometry" />
+        <mxCell id="IhysZrRgSNAVi8s295b9-152" value="ID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt;&amp;nbsp;Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2862.5" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-153" value="Title: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2920" width="240" height="40" as="geometry" />
+        <mxCell id="IhysZrRgSNAVi8s295b9-153" value="Title &lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;[FK]&lt;/font&gt;&lt;/b&gt;: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2912.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-154" value="Description: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2970" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="2962.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-155" value="LastTimeUTCUpdate: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3020" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3012.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-156" value="LastUserUpdated: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3070" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3062.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-158" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="3200" width="258" height="410" as="geometry" />
+          <mxGeometry x="100" y="3192.5" width="258" height="410" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-159" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;CountryHist&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3210" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3202.5" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-160" value="ID &lt;b&gt;&lt;i&gt;[PK] &lt;/i&gt;&lt;/b&gt;Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3260" width="240" height="40" as="geometry" />
+        <mxCell id="IhysZrRgSNAVi8s295b9-160" value="ID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;i&gt; &lt;/i&gt;&lt;/b&gt;Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3252.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-161" value="Title: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3410" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3402.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-162" value="Description: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3460" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3452.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-163" value="LastTimeUTCUpdate: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3510" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3502.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-164" value="LastUserUpdated: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3560" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3552.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-165" target="IhysZrRgSNAVi8s295b9-152">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="80" y="3330" />
-              <mxPoint x="80" y="2890" />
+              <mxPoint x="70" y="3322.5" />
+              <mxPoint x="70" y="2882.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-165" value="CountryID &lt;b&gt;&lt;i&gt;[FK]&lt;/i&gt;&lt;/b&gt;: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3310" width="240" height="40" as="geometry" />
+        <mxCell id="IhysZrRgSNAVi8s295b9-165" value="CountryID &lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;[FK]&lt;/font&gt;&lt;/b&gt;: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="3302.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-167" value="Action: VarChar (6) [Insert, Update, Delete]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="120" y="3360" width="240" height="40" as="geometry" />
+          <mxGeometry x="110" y="3352.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-170" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2802.5" width="258" height="257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-171" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Region&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2812.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-172" target="IhysZrRgSNAVi8s295b9-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-181" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1 : Many&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhysZrRgSNAVi8s295b9-180">
+          <mxGeometry x="-0.0217" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-172" value="ID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2862.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-173" value="Title: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2912.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-175" value="LastTimeUTCUpdate: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2962.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-176" value="LastUserUpdated: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="3012.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-182" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3192.5" width="258" height="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-183" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;RegionHist&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3202.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-184" value="ID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3252.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-185" value="Title: VarChar (56)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="3402.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-186" value="LastTimeUTCUpdate: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="3452.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-187" value="LastUserUpdated: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="528" y="3502.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-188" target="IhysZrRgSNAVi8s295b9-172">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="3323" />
+              <mxPoint x="490" y="2883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-188" value="RegionID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="3302.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-190" value="Action: VarChar (6) [Insert, Update, Delete]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="529" y="3352.5" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
