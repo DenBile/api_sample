@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T18:34:56.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0O6nBldec7dcA2RpiZyz" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T18:43:48.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="i9EnI-jztSJPxiqe5_mZ" version="23.1.6" type="github">
   <diagram name="Page-1" id="9bJNxkyMOJ93Q6BxH3WJ">
-    <mxGraphModel dx="2406" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1633" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1256,7 +1256,7 @@
         <mxCell id="IhysZrRgSNAVi8s295b9-171" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Region&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="530" y="2812.5" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-172" target="IhysZrRgSNAVi8s295b9-153">
+        <mxCell id="IhysZrRgSNAVi8s295b9-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-172" target="IhysZrRgSNAVi8s295b9-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-181" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1 : Many&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhysZrRgSNAVi8s295b9-180">
@@ -1302,11 +1302,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IhysZrRgSNAVi8s295b9-188" value="RegionID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="IhysZrRgSNAVi8s295b9-188" value="RegionID &lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="529" y="3302.5" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IhysZrRgSNAVi8s295b9-190" value="Action: VarChar (6) [Insert, Update, Delete]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="529" y="3352.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-191" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2802.5" width="258" height="457.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-192" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2812.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-199" value="ID &lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;[PK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2862.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-200" target="IhysZrRgSNAVi8s295b9-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="2931" />
+              <mxPoint x="880" y="3120" />
+              <mxPoint x="400" y="3120" />
+              <mxPoint x="400" y="2893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-210" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1 : 1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhysZrRgSNAVi8s295b9-205">
+          <mxGeometry x="-0.0266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-200" value="CountryID&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;[FK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2911.25" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IhysZrRgSNAVi8s295b9-201" target="IhysZrRgSNAVi8s295b9-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-209" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1 : 1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IhysZrRgSNAVi8s295b9-206">
+          <mxGeometry x="0.6046" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-201" value="RegionID&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;[FK]&lt;/font&gt;&lt;/b&gt; Unique: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-202" value="Zip: Int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="950" y="3008.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-203" value="Street: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="949" y="3057.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-204" value="Number: VarChar (25)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="949" y="3107.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-207" value="LastTimeUTCUpdate: DateTime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="949.5" y="3157.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IhysZrRgSNAVi8s295b9-208" value="LastUserUpdated: VarChar (255)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="948.5" y="3207.5" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
